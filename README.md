@@ -1,26 +1,26 @@
 # Spring-Boot-Practice-W-David
 
-Sprint 1
+    Sprint 1
 Prototypes
 Rapid Prototyping
 
 Prototype pages for:
 
 All:
-
-Categories
-Hashtags
-Two single pages for each:
-
+<!-- 
+-Categories
+-Hashtags
+-Two single pages for each:
+<!--  -->
 Review
 Category
 Tag
-Hard code all data and make sure all links connect to the right pages
+Hard code all data and make sure all links connect to the right pages -->
 
 Make HTML pages for each of these entities and add CSS styling.
 
-Sprint 2
-Goal - Class Design and Templates
+    Sprint 2
+<!-- Goal - Class Design and Templates
 Use static resources to start building out each section of the MVC structure
 
 The classes that make up the Model section.
@@ -39,7 +39,7 @@ Our controllers are going to control two important functions, defining request r
 To build a controller you need to have an idea on how your pages are linked together and what data needs to be populated into the model for each template that is returned by that method/endpoint.
 
 Data Layer
-Create a class that corresponds to each Model element that will contain a collection of example elements along with methods to retrieve them in specific ways (i.e. findAll, findById, etc.). Naming should reflect the data that is held in that service. (i.e. ReviewService)
+Create a class that corresponds to each Model element that will contain a collection of example elements along with methods to retrieve them in specific ways (i.e. findAll, findById, etc.). Naming should reflect the data that is held in that service. (i.e. ReviewService) -->
 
 Thymeleaf Tips
 Iteration
@@ -70,7 +70,7 @@ Thymeleaf Interactive Tutorial
 Resources
 The official Spring Boot Docs
 Test Doubles - Fakes, Mocks, and Stubs
-Sprint 3
+    Sprint 3
 Materials
 JPA
 
@@ -88,11 +88,11 @@ Repository query return types
 Goal
 Include and incorporate an actual database to store our data.
 Maintain all current Objects and add support for database management
-Sprint 4
+    Sprint 4
 Goal
 Make it so a user can add multiple hashtags at one time
 Add ability to add comments to reviews. Comments should be listed on a review's page after the review's content.
-Sprint 5
+    Sprint 5
 Landing the plane!
 
 Day 1
