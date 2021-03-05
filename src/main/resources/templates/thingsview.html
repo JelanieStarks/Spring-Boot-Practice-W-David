@@ -1,0 +1,27 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Things View</title>
+</head>
+<body><h1>Things View</h1><hr><br>
+<table>
+    <tr><th>Name</th><th>number</th></tr>
+
+    <tr th:each="thing: ${things}">
+        <td th:text="${thing.name}"></td><td th:text="${thing.number}"></td>
+    </tr>
+</table>
+
+<form action="/addThing" method="post">
+    <input type="text"  name="ThingName" value="Enter your things name"><br><br>
+    <input type="text"  name="ThingNumber" value="Enter your things number"><br><br>
+    <input type="submit">
+</form>
+
+
+</body>
+</html>
